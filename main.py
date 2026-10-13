@@ -6,6 +6,9 @@ def ciclo():
         print(f"Contador: {cnt}")
         cnt += 1
         time.sleep(1)
+    except KeyboardInterrupt:
+        print("Programa interrumpido por el usuario.")
+        break
 
 
 if __name__ == "__main__":
